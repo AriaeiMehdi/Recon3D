@@ -23,5 +23,6 @@ dist/
 output_3d/
 possible/
 dinov3_test_store
-data_split_cropped/
+data_split_cropped/*
+!data_split_cropped/.gitkeep
 eval_out/
