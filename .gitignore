@@ -1,0 +1,27 @@
+build/
+dist/
+*.egg-info/
+**/__pycache__/
+
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/**
+
+**/notebooks
+
+# Ignore shell scripts
+*.sh
+
+# Ignore swap files
+*.swp
+
+# Ignore vscode directory
+.vscode/
+
+# Large files
+*.pdf
+*.pt
+output_3d/
+possible/
+dinov3_test_store
+data_split_cropped/
+eval_out/
