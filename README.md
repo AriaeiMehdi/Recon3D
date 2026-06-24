@@ -594,6 +594,17 @@ Several notebooks are provided to get started applying DINOv3:
 
 ## Data preparation
 
+### SPECT Dataset (Hugging Face)
+
+Download the preprocessed SPECT data to `data_split_cropped/`:
+
+```shell
+pip install datasets
+python scripts/download_data.py
+```
+
+This fetches the dataset from [TheGreatPatric/spect](https://huggingface.co/datasets/TheGreatPatric/spect) and saves it locally.
+
 ### ImageNet-1k
 
 The root directory of the dataset should hold the following contents:
